@@ -1,0 +1,60 @@
+@media(min-width: 768px) and(max-width: 960px){
+  *{
+    overflow-x: hidden;
+  }
+  .header{
+    width: 100%;
+  }
+  .nav-bottom{
+    width: 590px;
+    height: 750px;
+  }
+  .btn-1{
+    width: 44px;
+    height: 44px;
+    position: static;
+  }
+
+  .products{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .image-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .hero{
+    width: 200px;
+  }
+  .hero h1{
+    font-size: 24px;
+  }
+  .card h3{
+    font-size: 18px;
+  }
+  .image-gallery h2{
+    font-size: 22px;
+  }
+  .footer{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 15px;
+  }
+  .foot-panel2{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot-panel2u1{
+    margin: 20px;
+  }
+  .pages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .copyright{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+}

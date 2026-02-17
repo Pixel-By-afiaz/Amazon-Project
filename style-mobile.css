@@ -1,0 +1,79 @@
+@media(max-width: 460px){
+ 
+*{
+  overflow-x: hidden;
+}
+
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-nav {
+  background: #232f3e;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+}
+
+  .products{
+    grid-template-columns: 1fr;
+  }
+  .image-container{
+    grid-template-columns: 1fr;
+  }
+  .hero h1{
+    font-size: 18px;
+    text-align: center;
+  }
+  .card h3{
+    font-size: 16px;
+  }
+  .image-gallery h2{
+    font-size: 18px;
+  }
+  .footer{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 15px;
+  }
+  .foot-panel1{
+    font-size: 14px;
+    padding: 10px;
+  }
+  .foot-panel2{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .foot-panel2u1{
+    margin: 15px 0;
+  }
+  .foot-panel3{
+    text-align: center;
+    padding: 15px 0;
+  }
+  .foot-panel4{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .pages{
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+  }
+  .copyright{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-right{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
